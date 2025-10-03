@@ -1,6 +1,5 @@
 import natural from "natural";
-import stopword from "stopword";
-// @ts-ignore
+import * as stopword from "stopword";
 import srtParser2 from "srt-parser-2";
 import { ExtractedWord } from "../types";
 
